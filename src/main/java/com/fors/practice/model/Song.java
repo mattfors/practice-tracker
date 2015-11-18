@@ -1,15 +1,16 @@
 package com.fors.practice.model;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Song {
 	
 	private String songId;
 	private String title;
 	private String artist;
-	private LocalDateTime createDate;
+	private Date createDate;
 	private String createUsr;
-	private String genraId;
+	private String genreId;
 	
 	public String getSongId() {
 		return songId;
@@ -29,10 +30,10 @@ public class Song {
 	public void setArtist(String artist) {
 		this.artist = artist;
 	}
-	public LocalDateTime getCreateDate() {
+	public Date getCreateDate() {
 		return createDate;
 	}
-	public void setCreateDate(LocalDateTime createDate) {
+	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
 	}
 	public String getCreateUsr() {
@@ -42,10 +43,10 @@ public class Song {
 		this.createUsr = createUsr;
 	}
 	public String getGenraId() {
-		return genraId;
+		return genreId;
 	}
-	public void setGenraId(String genraId) {
-		this.genraId = genraId;
+	public void setGenreId(String genreId) {
+		this.genreId = genreId;
 	}
 
 	
