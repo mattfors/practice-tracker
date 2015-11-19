@@ -42,7 +42,7 @@ public class Song {
 	public void setCreateUsr(String createUsr) {
 		this.createUsr = createUsr;
 	}
-	public String getGenraId() {
+	public String getGenreId() {
 		return genreId;
 	}
 	public void setGenreId(String genreId) {

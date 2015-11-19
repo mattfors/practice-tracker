@@ -1,5 +1,7 @@
 package com.fors.practice.resources;
 
+import java.util.List;
+
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -17,7 +19,7 @@ public class SongResource {
 	
 	@GET
     @Produces(MediaType.APPLICATION_JSON)
-	public Song pong() {
-		return songService.getExampleSong();
+	public List<Song> demoSongs() {
+		return songService.getExampleSongs();
 	}
 }

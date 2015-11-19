@@ -3,16 +3,27 @@
 <head>
 <title>Practice Tracker</title>
 <link rel="stylesheet" href="css/styles.css" />
-</head>
- <body>
- Hello
-<div id="content">
-    <ng:view></ng:view>
-</div>
-
 <script src="lib/angular.min.js" ng:autobind></script>
-
- 
-</body>
- 
+<script src="app/app.js"></script>
+<script src="app/controllers/democontroller.js"></script>
+</head>
+<body ng-app="practrac">
+	<div ng-controller="DemoController">
+	
+	<table>
+		<tr>
+			<th>Song ID</th>
+			<th>Artist</th>
+			<th>Title</th>
+			<th>Create User</th>
+		</tr>
+		<tr ng-repeat="song in songs">
+			<td>{{song.songId}}</td>
+			<td>{{song.artist}}</td>			
+			<td>{{song.title}}</td>
+			<td>{{song.createUsr}}</td>
+		</tr>
+	</table>
+	</div>
+</body> 
 </html>
