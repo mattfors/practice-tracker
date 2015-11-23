@@ -14,7 +14,22 @@ public class SongService {
 		List<Song> songs = new ArrayList<Song>();
 		songs.add(getExampleSong());
 		songs.add(getExampleSong2());
-		
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
+		songs.add(getExampleSong2());
 		return songs;
 		
 	}
