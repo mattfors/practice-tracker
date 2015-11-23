@@ -1,0 +1,9 @@
+CREATE TABLE song
+(
+song_id INT AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(255),
+artist VARCHAR(255),
+create_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+user_id INT,
+genre_id INT
+);
